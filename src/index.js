@@ -1,5 +1,6 @@
 import './style.css'
 import homepage from "./homepage.js"
+import menu from "./menu.js"
 import contact from "./contact.js"
 
 
@@ -11,7 +12,7 @@ tabHeaders.forEach((btn, i) => {
 let contentWrapper = document.querySelector("#content");
 let pages = [
     homepage(),
-    document.createElement("div"),
+    menu(),
     contact(),
 ];
 
@@ -24,4 +25,4 @@ function changeTab(index){
     contentWrapper.appendChild(pages[index]);
 }
 
-changeTab(2);
+changeTab(0);

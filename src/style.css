@@ -98,6 +98,34 @@ a{
     gap: 10px;
 }
 
+/* ---------------------------------- MENU ---------------------------------- */
+
+.menuWrapper:not(#\9):not(#\9){
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.menuWrapper h1{
+    grid-row: 1;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.menuItem{
+    border: 3px solid rgba(178, 190, 205, 0.6);
+    border-radius: 7px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuItem img{
+    width: 100%;
+}
+
 /* --------------------------------- CONTACT -------------------------------- */
 
 #contactWrapper{
