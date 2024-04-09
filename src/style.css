@@ -43,3 +43,54 @@
 body{
     background-color: var(--gray7);
 }
+header{
+    background-color: var(--gray6);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav>button{
+    background-color: white;
+    border: none;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+a{
+    color: var(--blue-dark);
+}
+
+/* --------------------------------- CONTENT -------------------------------- */
+
+#content{
+    min-height: 90vh;
+    background-image: url(https://static-cse.canva.com/blob/680117/Tangerine_Set6_12.png);
+    background-size:     120%, auto;                      
+    background-repeat:   repeat-y;
+    background-position: center start;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10vh;
+}
+
+#contentWrapper{
+    background-color: rgb(0,0,0,0.85);
+    border-radius: 5px;
+    color: white;
+    width: clamp(45ch, 50%, 75ch);
+    box-sizing: content-box;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
