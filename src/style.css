@@ -63,6 +63,9 @@ nav>button{
     border-radius: 10px;
     font-weight: 700;
 }
+button.selected{
+    background-color: var(--red-light);
+}
 a{
     color: var(--blue-dark);
 }
