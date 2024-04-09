@@ -28,8 +28,8 @@
     --pink-light: #ff649e;
     --gray0: #f8f8f8;
     --gray1: #dbe1e8;
-    --gray2: #b2becd;
-    --gray3: #6c7983;
+    --gray2: rgb(178, 190, 205);
+    --gray3: rgb(108, 121, 131);
     --gray4: #454e56;
     --gray5: #2a2e35;
     --gray5t: #0000005b;
@@ -96,4 +96,13 @@ a{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+/* --------------------------------- CONTACT -------------------------------- */
+
+#contactWrapper{
+    border: 3px solid rgba(178, 190, 205, 0.6);
+    padding: 10px;
+    display: inline;
+    width: 35ch;
 }
